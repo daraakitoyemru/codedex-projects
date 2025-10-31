@@ -9,8 +9,6 @@ def get_meme():
     json_data = json.loads(res.text)
     return json_data['url']
 
-
-
 # log into discord server
 intents = discord.Intents.default() # assigned default settings
 intents.message_content = True #allows bot to interact with messages
